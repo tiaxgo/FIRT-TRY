@@ -18,7 +18,7 @@ body {
 
 
 nav {
-    background-color: aqua;
+
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -86,9 +86,10 @@ input[type="checkbox"] {
 
 header,
 .dark header {
-    padding: 20px 0px 15px 20px;
-    position: relative;
-    top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 10px 10px 35px;
 
 
 }

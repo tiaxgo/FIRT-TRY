@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Jura", sans-serif;
+
+}
+
+
+body {
+    background-color: black;
+    transition: 0.3s;
+}
+
+
+
+nav {
+    background-color: aqua;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+    
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.ult {
+    margin-right: 25px;
+    
+
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.bi {
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+
+}
+
+.bi-moon {
+    display: none;
+
+}
+
+.dark,
+.dark header {
+    background-color: white;
+    color: white;
+}
+
+.dark .bi-sun {
+    display: none;
+    color: black;
+
+}
+
+.dark .bi-moon {
+    display: block;
+    color: black
+}
+
+ .dark .navd {
+    color: black;
+    background-color: white;
+ }
+
+.dark .ult {
+    color: black;
+}
+
+header,
+.dark header {
+    padding: 20px 0px 15px 20px;
+    position: relative;
+    top: 50px;
+
+
+}

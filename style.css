@@ -156,3 +156,12 @@ main {
     flex-direction: column;
     justify-content: end;
 }
+
+section {
+    background-color: aqua;
+    color: red;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}

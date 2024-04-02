@@ -157,11 +157,43 @@ main {
     justify-content: end;
 }
 
-section {
-    background-color: aqua;
+.rol {
+    background-color: blue;
     color: red;
     display: flex;
-    justify-content: space-evenly;
     margin-top: 50px;
-     
+    min-width: 500px;
+    min-height: 500px;
+
+}
+
+.project1 { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.project2 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around ;
+    text-align: center;
+    position:
+
+
+}
+
+.not {
+  
+   
+    
+        
+}
+
+
+.titulo {
+     background-color: blueviolet;
 }

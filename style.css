@@ -160,6 +160,7 @@ main {
 .rol {
     background-color: blue;
     color: red;
+    position: relative;
     display: flex;
     margin-top: 50px;
     min-width: 500px;
@@ -168,32 +169,31 @@ main {
 }
 
 .project1 { 
-    display: flex; 
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-
-
-}
-
-.project2 {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-around ;
-    text-align: center;
-    position:
 
 
 }
 
 .not {
-  
-   
+    position: absolute;   
+    top: 30px;  
+    left: 3rem; 
+    padding-top: 5px;
+    border-radius: 50%;     
     
-        
+}
+
+.textoimg {
+    position: absolute;
+    font-size: 16px;
+    top: 225px;
+    left: 1rem;;
+ 
 }
 
 
 .titulo {
-     background-color: blueviolet;
-}
+    background-color: blueviolet;
+    position: absolute;
+    font-size: 26px;
+    left: 5rem;
+     }

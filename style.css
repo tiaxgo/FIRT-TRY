@@ -207,9 +207,144 @@ main {
 .redes a {
     padding: 10px;
     color: white;
+    text-decoration: none;
+
 }
+
+.botaoredes {
+    border: none;
+    font-size: 16px;
+    background-color: #080c18;
+    color: aliceblue;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+
+}
+.botaoredes:hover {
+    background-color: #061644;
+
+}
+
 
 footer {
     margin: 10px 0px 10px 0px;
     text-align: center;
+}
+
+/* ABAIXO CSS DO MENU SLIDE */ 
+
+.card {
+    border-radius: 25px 25px 0 25px;
+    background-color: red;
+    width: 320px; 
+    /* VER A QUESTÃO DESSE WIDHT COM E SEM JS*/
+
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 50%;
+
+
+}
+/* abaixo borda ao redo da foto de perfil"*/
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070f4;
+    padding: 5px;
+    
+
+}
+
+.slide.content {
+    margin: 0 40px;
+    background-color: #080c18;
+    
+
+}
+
+.image-content {
+    row-gap: 5px;
+    position: relative;
+    border-radius: 25px 25px 0 25px;
+    padding-top: 7px;
+    
+}
+
+.image-content,
+.card-content {
+    position: relative;
+    background-color: #080c18; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+    
+    /* verificar sobreposição do (.card) se necessário ou a sobreposição desse*/
+    /*  essa parte é onde fica os card de informações, ver border-radius separado */ 
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    margin-top: 20px;
+    border-radius: 25px 25px 0 25px;
+   
+/* esse acima é onde fica as informacoes, nome, descriçãoe  ver mais */ 
+}
+
+.slide-conteiner {
+    max-width: 1122px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px;
+}
+
+.nome {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 14px;
+}
+
+.botao {
+    border: none;
+    font-size: 16px;
+    background-color: #4070f4;
+    color: aliceblue;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #2b4ba3;
+
+}
+
+.overlay {
+    background-color: rgba(62, 108, 108, 0.768);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 24px 25px 0 25px;
+
 }

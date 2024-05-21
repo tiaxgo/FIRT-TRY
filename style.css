@@ -158,18 +158,13 @@ main {
 }
 
 .rol {
-    background-color: blue;
-    color: red;
+    background-color: rgb(21, 21, 30);
+    color: white;
     position: relative;
     display: flex;
     margin-top: 50px;
-    min-width: 500px;
-    min-height: 500px;
-
-}
-
-.project1 { 
-
+    min-width: 250px;
+    min-height: 250px;
 
 }
 
@@ -192,8 +187,29 @@ main {
 
 
 .titulo {
-    background-color: blueviolet;
+    background-color: rgb(131, 84, 175);
+    color: aliceblue;
     position: absolute;
     font-size: 26px;
     left: 5rem;
      }
+
+.redes {
+    background-color: rgba(62, 108, 108, 0.768);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.redes a {
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}

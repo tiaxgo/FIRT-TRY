@@ -19,7 +19,7 @@ body {
     background-color: black;
     transition: 0.3s;
     color: white;
-    padding: 0px 100px 0px 60px;
+    padding: 10px 60px 10px 60px;
 }
 
 
@@ -100,6 +100,7 @@ header,
     justify-content: space-between;
     padding: 15px 5px 0px 15px;
 
+
 }
 
 .bi::before {
@@ -140,6 +141,7 @@ img {
 
 main {
     padding-top: 60px;
+    overflow: hidden;
 
 }
 
@@ -158,13 +160,14 @@ main {
 }
 
 .rol {
-    background-color: rgb(21, 21, 30);
+    background-color: grey;
     color: white;
     position: relative;
     display: flex;
     margin-top: 50px;
-    min-width: 250px;
-    min-height: 250px;
+    margin-bottom: 20px;
+    border-radius: 23px;
+
 
 }
 
@@ -199,8 +202,11 @@ main {
     width: 100%;
     text-align: center;
     padding: 10px 0px 10px 0px;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
+    border-radius: 23px;
+    
+
 
 }
 
@@ -232,7 +238,9 @@ main {
 footer {
     margin: 10px 0px 10px 0px;
     text-align: center;
+    padding-bottom: 60px;
 }
+
 
 /* ABAIXO CSS DO MENU SLIDE */ 
 
@@ -249,6 +257,7 @@ footer {
     height: 150px;
     width: 150px;
     border: 50%;
+
 
 
 }
@@ -300,15 +309,26 @@ footer {
     padding: 10px 14px;
     margin-top: 20px;
     border-radius: 25px 25px 0 25px;
-   
+    width: 92%;
+    height: 200px;
+    justify-content: space-between;
+    
 /* esse acima é onde fica as informacoes, nome, descriçãoe  ver mais */ 
 }
-
+ /* abaixo é a div que fica por traz do "slides" que apresentam os projetos*/
 .slide-conteiner {
-    max-width: 1122px;
-    width: 100%;
-    background-color: grey;
-    padding: 40px;
+    background-color: rgb(128, 128, 128);
+    padding: 30px;
+    max-width: 1120px;
+    width: 80%;
+    min-width: 110px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 23px;
+
+
 }
 
 .nome {
@@ -331,11 +351,11 @@ footer {
     margin: 14px;
     border-radius: 6px;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .botao:hover {
     background-color: #2b4ba3;
-
 }
 
 .overlay {
@@ -348,3 +368,66 @@ footer {
     border-radius: 24px 25px 0 25px;
 
 }
+/* aqui acaba a sessão dos slides*/
+
+/* esse botao é da opcao vVer mais dos PROJETOS*/
+.botao a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 609px){
+    /* topo do site */
+    body {
+        padding: 10px 15px 10px 15px;
+    }
+    .bloco{
+        justify-content: center;
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .elemento1 {
+        font-size: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .elemento2 {
+        padding-top: 16px;
+        padding-left: 150px;
+    }
+
+    .fotopreta, .fotobranca {
+        width: 170x;
+        height: 170px;
+      
+        
+    }
+
+
+    /*cabecalho*/
+
+    .menu{
+        display: none;
+
+    }
+
+    .redes {
+        margin-top: 190px;
+        width: 100%;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .rol {
+        
+        flex-direction: column;
+        align-items: center;
+
+    }}

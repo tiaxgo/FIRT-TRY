@@ -23,6 +23,13 @@ body {
 }
 
 
+.bloco .conteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
 
 nav {
     text-decoration: none;
@@ -103,6 +110,96 @@ header,
 
 }
 
+
+header nav.nav-mobile ul li {
+    list-style-type: none;
+
+}
+
+.menu-mobile {
+    background-color: #111010;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    width: 0%;
+    overflow: hidden;
+    transition: .3s;
+
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
+
+}
+ /* PARTE DO MENU MOBILE */
+.menu-mobile nav ul{
+    text-align: right;
+}
+
+.menu-mobile nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 10px 20px 0px ;
+    text-align: right;
+    display: block;
+    
+}
+
+.menu-mobile .nav-mobile ul li.linkmobile {
+    padding: 20px;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover{
+    background-color: rgba(62, 108, 108, 0.768);
+    color: #03050c;
+}
+ /* Esse nav-mobile foi pra ancora preencher todo espaço do menu*/
+.nav-mobile {
+    display: block;
+ 
+}
+
+.menu-mobile .btn-fechar i{
+    color: rgba(62, 108, 108, 0.768);
+    font-size: 30px;
+
+}
+.menu-mobile .btn-fechar {
+    padding: 13px;
+}
+
+.btn-abrir-menu i{
+    color: rgba(62, 108, 108, 0.768);
+    font-size: 30px;
+    padding-right: 10px;
+
+}
+
+.overlay-menu {
+    background-color: #000000b9;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
+.btn-abrir-menu {
+    display: none;
+}
+
+
+
 .bi::before {
     padding: 10px;
 }
@@ -136,13 +233,14 @@ img {
     flex-direction: row;
     justify-content: space-around;
     height: 225px;
+    align-items: center;
+
 
 }
 
 main {
     padding-top: 60px;
     overflow: hidden;
-
 }
 
 .dark .body {
@@ -150,7 +248,10 @@ main {
 }
 
 .elemento2 {
-    padding-right: 300px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .elemento1 {
@@ -202,7 +303,7 @@ main {
     width: 100%;
     text-align: center;
     padding: 10px 0px 10px 0px;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-bottom: 20px;
     border-radius: 23px;
     
@@ -267,7 +368,7 @@ footer {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #4070f4;
+    border: 4px solid #151c31;
     padding: 5px;
     
 
@@ -381,27 +482,36 @@ footer {
     body {
         padding: 10px 15px 10px 15px;
     }
-    .bloco{
-        justify-content: center;
-    }
-    .conteiner{
+
+    .bloco .conteiner {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        gap: 30px;
         align-items: center;
+        text-align: center;
+    }
+
+    .elemento1  {
+        font-size: 12px;
+        padding-bottom: 20px;
+        margin-bottom: 45px;
+
+    }
+
+    .elemento1 h2 {
+        font-size: 20px;
+    }
+
+    .elemento1 p {
+        font-size: 16px;
+    }
+
+    .elemento2  {
+        display: flex;
         justify-content: center;
-
-    }
-    .elemento1 {
-        font-size: 10px;
-        padding-bottom: 10px;
-
+        padding-top: 10px;
     }
 
-    .elemento2 {
-        padding-top: 16px;
-        padding-left: 150px;
-    }
 
     .fotopreta, .fotobranca {
         width: 170x;
@@ -418,11 +528,15 @@ footer {
 
     }
 
+    
+
     .redes {
-        margin-top: 190px;
-        width: 100%;
+        margin-top: 100px;
+
+        width: 95%;
         font-size: 12px;
-        padding: 5px;
+        padding: 10px 10px 5px 10px;
+        border-radius: 10px;
     }
 
     .rol {
@@ -430,4 +544,10 @@ footer {
         flex-direction: column;
         align-items: center;
 
-    }}
+    }
+
+    .btn-abrir-menu {
+        display: block;
+    }
+    
+}

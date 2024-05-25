@@ -477,6 +477,10 @@ footer {
     color: white;
 }
 
+.menudocelular {
+    display: none;
+}
+
 @media screen and (max-width: 609px){
     /* topo do site */
     body {
@@ -524,7 +528,7 @@ footer {
     /*cabecalho*/
 
     .menu{
-        display: none;
+        display: non;
 
     }
 
@@ -546,8 +550,24 @@ footer {
 
     }
 
-    .btn-abrir-menu {
+    .btn-abrir-menu  {
+        display: flex;
+        justify-content: end;
+    }
+
+    .menudocelular {
         display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        padding-top: 18px;
+
+
+    }
+    
+    nav {
+        display: none;
     }
     
 }

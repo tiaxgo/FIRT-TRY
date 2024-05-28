@@ -258,7 +258,19 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    color: #2b3d4f;
+    font-weight: 500;
 }
+
+.elemento1 h2 {
+    color: #F39C12;
+}
+
+.elemento1 p {
+    font-size: large;
+    font-weight: 700;
+}
+
 
 .rol {
     background-color: grey;
@@ -299,7 +311,7 @@ main {
      }
 
 .redes {
-    background-color: rgba(62, 108, 108, 0.768);
+    background-color: #F39C12;
     width: 100%;
     text-align: center;
     padding: 10px 0px 10px 0px;
@@ -313,7 +325,7 @@ main {
 
 .redes a {
     padding: 10px;
-    color: white;
+    color: #F39C12;
     text-decoration: none;
 
 }
@@ -321,7 +333,7 @@ main {
 .botaoredes {
     border: none;
     font-size: 16px;
-    background-color: #080c18;
+    background-color: white;
     color: aliceblue;
     padding: 8px 16px;
     cursor: pointer;
@@ -331,7 +343,7 @@ main {
 
 }
 .botaoredes:hover {
-    background-color: #061644;
+    background-color: black;
 
 }
 

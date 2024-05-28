@@ -347,11 +347,14 @@ main {
 
 }
 
-
+.dark footer {
+    color: black;
+}
 footer {
     margin: 10px 0px 10px 0px;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    font-weight: bold;
 }
 
 
@@ -404,7 +407,7 @@ footer {
 .image-content,
 .card-content {
     position: relative;
-    background-color: #080c18; 
+    background-color: #F39C12; 
     display: flex;
     flex-direction: column;
     align-items: center;

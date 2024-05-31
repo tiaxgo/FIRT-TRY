@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
     padding: 0;
@@ -15,8 +16,9 @@
     color: black;
 }
 
+/* FUNDO VERSÃO DARK */
 body {
-    background-color: black;
+    background-color: #1E1E1E;
     transition: 0.3s;
     color: white;
     padding: 10px 60px 10px 60px;
@@ -39,6 +41,7 @@ nav {
     padding-top: 5px;
     max-height: 50px;
     text-align: center;
+    gap: 40px;
 
     
 
@@ -91,14 +94,11 @@ input[type="checkbox"] {
 }
 
  .dark .navd {
-    color: black;
+    color: #2B3D4F;
     background-color: white;
   
  }
 
-.dark .ult {
-    color: black;
-}
 
 header,
 .dark header {
@@ -108,6 +108,11 @@ header,
     padding: 15px 5px 0px 15px;
 
 
+}
+
+.dark h1, .dark .p1 {
+    color: #2B3D4F;
+    
 }
 
 
@@ -205,8 +210,8 @@ header nav.nav-mobile ul li {
 }
 
 img {
-    max-width: 200px;
-    max-height: 400px;
+    max-width: 330px;
+    max-height: 330px;
     position: absolute;
 }
 
@@ -231,9 +236,9 @@ img {
 .conteiner {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     height: 225px;
     align-items: center;
+    justify-content: center;
 
 
 }
@@ -246,34 +251,49 @@ main {
 .dark .body {
     margin: 0px 30px 0px 30px;
 }
-
+/* ELEMENTO DOIS É FOTO EM DESENHO */
 .elemento2 {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 320px;
     align-items: center;
     margin-bottom: 20px;
+  
 }
-
+ /* ELEMENTO 1 É ONDE ME APRESENTO "OLA´ME CHAMO...*/
 .elemento1 {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    color: #2b3d4f;
+    color: #FFF;
     font-weight: 500;
 }
 
 .elemento1 h2 {
     color: #F39C12;
+    font-family: Inter;
+    font-size: 38.828px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
 }
 
 .elemento1 p {
     font-size: large;
     font-weight: 700;
+
+}
+
+.elemento1 h1 {
+    font-family: Inter;
+    font-size: 42.818px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 
 
 .rol {
-    background-color: grey;
     color: white;
     position: relative;
     display: flex;
@@ -284,66 +304,42 @@ main {
 
 }
 
-.not {
-    position: absolute;   
-    top: 30px;  
-    left: 3rem; 
-    padding-top: 5px;
-    border-radius: 50%;     
-    
-}
 
-.textoimg {
-    position: absolute;
-    font-size: 16px;
-    top: 225px;
-    left: 1rem;;
- 
-}
-
-
-.titulo {
-    background-color: rgb(131, 84, 175);
-    color: aliceblue;
-    position: absolute;
-    font-size: 26px;
-    left: 5rem;
-     }
+/* AQUI SÃO OS BOTÕES LINKEDIN, GITHUB E WHATSAPP*/ 
 
 .redes {
-    background-color: #F39C12;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-radius: 23px;
-    
-
-
+    display: flex;
+    margin-left: 168px;
+    gap: 23px;
 }
 
 .redes a {
     padding: 10px;
-    color: #F39C12;
+    color: white;
     text-decoration: none;
+    font-weight: bold;
 
 }
 
+.redes a:hover {
+    color: black;
+}
 .botaoredes {
     border: none;
     font-size: 16px;
-    background-color: white;
-    color: aliceblue;
+    background-color: #1E1E1E;
+    color:aliceblue;
     padding: 8px 16px;
     cursor: pointer;
     margin: 14px;
     border-radius: 6px;
     transition: all 0.3s ease;
+    border-radius: 8.817px;
+    border: 1px solid #D9D9D9;
 
 }
 .botaoredes:hover {
-    background-color: black;
+    background-color: #fff;
 
 }
 
@@ -426,14 +422,13 @@ footer {
     margin-top: 20px;
     border-radius: 25px 25px 0 25px;
     width: 92%;
-    height: 200px;
+    height: 130px;
     justify-content: space-between;
     
 /* esse acima é onde fica as informacoes, nome, descriçãoe  ver mais */ 
 }
  /* abaixo é a div que fica por traz do "slides" que apresentam os projetos*/
 .slide-conteiner {
-    background-color: rgb(128, 128, 128);
     padding: 30px;
     max-width: 1120px;
     width: 80%;
@@ -551,11 +546,12 @@ footer {
 
     .redes {
         margin-top: 100px;
-
-        width: 95%;
+        margin-left: 0;
+        width: 100%;
         font-size: 12px;
         padding: 10px 10px 5px 10px;
         border-radius: 10px;
+        justify-content: center;
     }
 
     .rol {

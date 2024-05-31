@@ -310,7 +310,6 @@ main {
     color: white;
     position: relative;
     display: flex;
-    margin-top: 50px;
     margin-bottom: 20px;
     border-radius: 23px;
 
@@ -379,7 +378,7 @@ footer {
 
 .card {
     border-radius: 25px 25px 0 25px;
-    background-color: red;
+    background-color: #2B3D4F;;
     width: 320px; 
     /* VER A QUESTÃO DESSE WIDHT COM E SEM JS*/
 
@@ -424,7 +423,7 @@ footer {
 .image-content,
 .card-content {
     position: relative;
-    background-color: #F39C12; 
+    background-color:#F39C12; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -463,6 +462,29 @@ footer {
 
 }
 
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 90px;
+}
+
+.parte1e2 {
+    width: 330px ;
+    height: 50px;
+}
+
+.portfolio h2 {
+    padding: 0px 20px 10px 0px ;
+    color: #F39C12;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 .nome {
     font-size: 18px;
     font-weight: 500;
@@ -476,7 +498,7 @@ footer {
 .botao {
     border: none;
     font-size: 16px;
-    background-color: #4070f4;
+    background-color: #2B3D4F;
     color: aliceblue;
     padding: 8px 16px;
     cursor: pointer;
@@ -491,13 +513,13 @@ footer {
 }
 
 .overlay {
-    background-color: rgba(62, 108, 108, 0.768);
+    background-color:#2B3D4F;;
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    border-radius: 24px 25px 0 25px;
+    border-radius: 20px 20px 0 25px;
 
 }
 /* aqui acaba a sessão dos slides*/
@@ -698,6 +720,11 @@ footer {
       
 
     }
+
+    .parte1e2 {
+        max-width: 300px ;
+    }
+
 }
 
 /* não esquecer de mudar footer pra o modo claro*/

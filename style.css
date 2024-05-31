@@ -6,8 +6,8 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Jura", sans-serif;
-
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
 }
 
 
@@ -42,7 +42,7 @@ nav {
     max-height: 50px;
     text-align: center;
     gap: 40px;
-
+    
     
 
 }
@@ -52,6 +52,7 @@ nav a {
     text-decoration: none;
     padding: 5px 5px 5px 5px;
     padding-bottom: 0;
+
 }
 
 .ult {
@@ -113,6 +114,18 @@ header,
 .dark h1, .dark .p1 {
     color: #2B3D4F;
     
+}
+
+
+.dark .botaoredes {
+    background-color: #fff;
+    border: 1px solid #F39C12;
+   
+
+}
+
+.dark .redes a {
+    color: #F39C12;
 }
 
 
@@ -280,7 +293,7 @@ main {
 
 .elemento1 p {
     font-size: large;
-    font-weight: 700;
+    font-weight: 400;
 
 }
 
@@ -341,6 +354,14 @@ main {
 .botaoredes:hover {
     background-color: #fff;
 
+}
+
+.dark .botaoredes:hover {
+    background-color: #F39C12;
+}
+
+.dark .redes a:hover {
+    color: #FFF;
 }
 
 .dark footer {

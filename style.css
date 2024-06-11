@@ -683,10 +683,14 @@ footer {
         justify-content: center;
         gap: 0;
         display: ruby-text;
+        max-width: 100%; /* ou qualquer valor que você deseje */
+        max-height: 100%;
     }
 
     .redes2 {
         display: ruby-text;
+        max-width: 100%; /* ou qualquer valor que você deseje */
+        max-height: 100%;
     }
 
     .rol {

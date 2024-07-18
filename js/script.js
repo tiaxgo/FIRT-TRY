@@ -5,7 +5,7 @@ changeThemeBtn.addEventListener("change", function() {
 
 })
 
-/* abaixo menu com overlay*/ 
+/* abaixo menu com overlay versap mobile*/ 
 
 let btnMenu = document.getElementById('btn-abrir-menu')
 let menu = document.getElementById('menu-mobile')

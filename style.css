@@ -683,8 +683,8 @@ footer {
         justify-content: center;
         gap: 0;
         display: ruby-text;
-        max-width: 100%; /* ou qualquer valor que você deseje */
-        max-height: 100%;
+        max-width: 600px; /* ou qualquer valor que você deseje */
+        max-height: 600px;
     }
 
     .redes2 {

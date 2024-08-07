@@ -22,8 +22,8 @@ body {
     background-color: #1E1E1E;
     transition: 0.3s;
     color: white;
-    padding: 10px 60px 10px 60px;
-    max-width: 1351px;
+    padding: 10px 11px 10px 10px;
+   
 
 
 }
@@ -227,14 +227,17 @@ header nav.nav-mobile ul li {
 }
 
 img {
-    max-width: 330px;
-    max-height: 330px;
-    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; 
+ 
 }
 
 .fotopreta {
     display: none;
-    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; 
    
 }
 
@@ -263,6 +266,10 @@ img {
 main {
     padding-top: 60px;
     overflow: hidden;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    max-width: 4402px;
 }
 
 .dark .body {
@@ -325,7 +332,6 @@ main {
 
 .redes {
     display: flex;
-    margin-left: 168px;
     gap: 23px;
 }
 
@@ -474,7 +480,7 @@ footer {
 }
  /* abaixo é a div que fica por traz do "slides" que apresentam os projetos*/
 .slide-conteiner {
-    padding: 30px;
+    padding: 15px;
     max-width: 1120px;
     width: 80%;
     min-width: 110px;
@@ -562,10 +568,12 @@ footer {
 /* abaixo sessão sobre mim*/
 
 .sobremim {
-    height: 80vh;
+    
     display: flex;
     gap: 60px;
     padding: 50px ;
+    max-width: 79%;
+    max-height: 100%;
 
 }
 

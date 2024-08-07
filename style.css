@@ -23,6 +23,8 @@ body {
     transition: 0.3s;
     color: white;
     padding: 10px 60px 10px 60px;
+    max-width: 1350px;
+
 }
 
 

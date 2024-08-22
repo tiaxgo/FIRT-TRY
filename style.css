@@ -494,10 +494,17 @@ footer {
 }
 
 .portfolio {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    height: 90px;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+   
+   
+}
+
+.portfolio img {
+    display: block;
+    width: 100%;
+    height: 55px;
 }
 
 .parte1e2 {
@@ -506,6 +513,10 @@ footer {
 }
 
 .portfolio h2 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     padding: 0px 20px 10px 0px ;
     color: #F39C12;
     text-align: center;
@@ -514,6 +525,7 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-align: center;
 }
 
 .nome {
@@ -650,7 +662,6 @@ footer {
     .elemento1  {
         font-size: 12px;
         padding-bottom: 20px;
-        margin-bottom: 45px;
 
     }
 
@@ -736,7 +747,6 @@ footer {
     .sobremim {
         flex-direction: column;
         align-items: center;
-        height: 135vh;
         
     }
     
@@ -764,6 +774,10 @@ footer {
 
     .parte1e2 {
         max-width: 300px ;
+    }
+
+    .portfolio img {
+        height: 41px;
     }
 
 }

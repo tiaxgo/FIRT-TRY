@@ -270,6 +270,7 @@ main {
     place-items: center;
     justify-content: center;
     max-width: 4402px;
+    margin: 0 auto; /* Centraliza horizontalmente */
 }
 
 .dark .body {
@@ -447,18 +448,16 @@ footer {
     border-radius: 25px 25px 0 25px;
     padding-top: 7px;
     width: 100%;
+    overflow: hidden;
     
 }
 
 .image-content,
 .card-content {
     position: relative;
-    background-color:#F39C12; 
     display: flex;
     flex-direction: column;
     align-items: center;
-
-   
     
     /* verificar sobreposição do (.card) se necessário ou a sobreposição desse*/
     /*  essa parte é onde fica os card de informações, ver border-radius separado */ 
@@ -474,6 +473,7 @@ footer {
     width: 91%;
     height: 150px;
     justify-content: space-between;
+    background-color:#F39C12; 
     
 /* esse acima é onde fica as informacoes, nome, descriçãoe  ver mais */ 
 }

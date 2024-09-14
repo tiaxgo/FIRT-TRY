@@ -653,7 +653,7 @@ footer {
     color: #2B3D4F;
 }
 
-@media screen and (max-width: 609px){
+@media screen and (max-width: 1000px){
     /* topo do site */
     body {
         padding: 10px 15px 10px 15px;
@@ -790,7 +790,7 @@ footer {
     }
 
     .card-content {
-        width: 91%;
+        width: 95%;
     }
 
     .image-content {

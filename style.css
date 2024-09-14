@@ -534,11 +534,13 @@ footer {
 .nome {
     font-size: 18px;
     font-weight: 500;
+    text-align: center;
 }
 
 .descricao {
     text-align: center;
     font-size: 14px;
+    text-align: center;
 }
 
 .botao {

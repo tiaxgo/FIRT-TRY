@@ -538,6 +538,11 @@ footer {
     font-size: 14px;
 }
 
+.descricaoPAPETE {
+    text-align: center;
+    font-size: 12px;
+}
+
 .botao {
     border: none;
     font-size: 16px;

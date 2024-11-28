@@ -306,6 +306,7 @@ main {
     font-size: large;
     font-weight: 400;
     word-wrap: break-word;
+    padding: 0 10px 0 10px;
 
 }
 

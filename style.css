@@ -335,14 +335,14 @@ main {
 
 .redes {
     display: flex;
-    gap: 23px;
+    gap: 5px;
 }
 
 .redes2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 23px;  
+    gap: 5px;  
 
 }
 
@@ -722,7 +722,7 @@ footer {
         justify-content: center;
         gap: 0;
         display: ruby-text;
-        max-width: 600px; /* ou qualquer valor que você deseje */
+        width: 100%; /* ou qualquer valor que você deseje */
         max-height: 600px;
     }
 
@@ -804,6 +804,9 @@ footer {
         width: 100%;
     }
 
+    main {
+        padding: 0 10px 0 10px;
+    }
 }
 
 /* não esquecer de mudar footer pra o modo claro*/

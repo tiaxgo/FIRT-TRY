@@ -660,7 +660,7 @@ footer {
     color: #2B3D4F;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px){
     /* topo do site */
     body {
         padding: 10px 15px 10px 15px;

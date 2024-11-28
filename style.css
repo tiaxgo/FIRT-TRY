@@ -682,6 +682,10 @@ footer {
         width: 100%;
 
     }
+    .elemento1 h1 {
+        padding-top: 155px;
+
+    }
 
     .elemento1 h2 {
         font-size: 20px;
@@ -722,18 +726,23 @@ footer {
         margin-top: 120px;
         margin-left: 0;
         font-size: 12px;
-        padding: 10px 10px 5px 10px;
+        padding: 10px 10px 15px 10px;
         border-radius: 10px;
         justify-content: center;
         gap: 0;
         width: 100%; /* ou qualquer valor que você deseje */
         max-height: 600px;
+        display: flex;
+        flex-direction: column;
+
+        
     }
 
     .redes2 {
-        display: ruby-text;
         max-width: 100%; /* ou qualquer valor que você deseje */
         max-height: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .rol {
@@ -811,6 +820,13 @@ footer {
     main {
         padding: 0 10px 0 10px;
     }
+
+    .botaoredes{
+        margin-bottom: 10px;
+   
+        
+    }
+
 }
 
 /* não esquecer de mudar footer pra o modo claro*/

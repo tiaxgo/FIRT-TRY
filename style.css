@@ -673,26 +673,31 @@ footer {
         align-items: center;
         text-align: center;
         height: 325px;
+        width: 100%;
     }
 
     .elemento1  {
         font-size: 12px;
         padding-bottom: 20px;
+        width: 100%;
 
     }
 
     .elemento1 h2 {
         font-size: 20px;
+        width: 100%;
     }
 
     .elemento1 p {
         font-size: 16px;
+        width: 100%;
     }
 
     .elemento2  {
         display: flex;
         justify-content: center;
         padding-top: 10px;
+        width: 100%;
     }
 
 
@@ -721,7 +726,6 @@ footer {
         border-radius: 10px;
         justify-content: center;
         gap: 0;
-        display: ruby-text;
         width: 100%; /* ou qualquer valor que você deseje */
         max-height: 600px;
     }
